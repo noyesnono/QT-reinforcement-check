@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1034</width>
+    <height>781</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="tab_a">
+       <attribute name="title">
+        <string>荷载</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QWidget" name="widget_a" native="true">
+          <widget class="QLabel" name="label_a_1">
+           <property name="geometry">
+            <rect>
+             <x>9</x>
+             <y>9</y>
+             <width>68</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;开发ing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_b">
+       <attribute name="title">
+        <string>内力</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_b">
+        <item row="0" column="0">
+         <widget class="QWidget" name="widget_b" native="true">
+          <widget class="QLabel" name="label_b_1">
+           <property name="geometry">
+            <rect>
+             <x>9</x>
+             <y>9</y>
+             <width>68</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;开发ing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_c">
+       <attribute name="title">
+        <string>配筋</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_c">
+        <item row="0" column="1">
+         <widget class="QWidget" name="widget_c" native="true">
+          <widget class="QWidget" name="chartwidget" native="true">
+           <property name="geometry">
+            <rect>
+             <x>340</x>
+             <y>50</y>
+             <width>621</width>
+             <height>571</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget1">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>30</y>
+             <width>131</width>
+             <height>284</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <widget class="QLabel" name="label_c_1">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;α&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_2">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ξ&lt;span style=&quot; vertical-align:sub;&quot;&gt;b&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_3">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;β&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_4">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;f&lt;span style=&quot; vertical-align:sub;&quot;&gt;c&lt;/span&gt;（N/mm&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_5">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;f&lt;span style=&quot; vertical-align:sub;&quot;&gt;y&lt;/span&gt;（N/mm&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_6">
+                <property name="text">
+                 <string>b（mm）</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_7">
+                <property name="text">
+                 <string>h（mm）</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_8">
+                <property name="text">
+                 <string>as'（mm）</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_9">
+                <property name="text">
+                 <string>as（mm）</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_10">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;h&lt;span style=&quot; vertical-align:sub;&quot;&gt;0&lt;/span&gt;（mm）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_19">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ξcy&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_1">
+                <property name="text">
+                 <string>1.0</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_2">
+                <property name="text">
+                 <string>0.518</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_3">
+                <property name="text">
+                 <string>0.8</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_4">
+                <property name="text">
+                 <string>23.1</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_5">
+                <property name="text">
+                 <string>360</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_6">
+                <property name="text">
+                 <string>1200</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_7">
+                <property name="text">
+                 <string>350</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_8">
+                <property name="text">
+                 <string>55</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_9">
+                <property name="text">
+                 <string>55</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_10">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(133, 133, 200);</string>
+                </property>
+                <property name="text">
+                 <string>295</string>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_17">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(133, 133, 200);</string>
+                </property>
+                <property name="text">
+                 <string>1.082</string>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="layoutWidget3">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>610</y>
+             <width>121</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_c_13">
+              <property name="text">
+               <string>裂缝（mm）</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_c_13">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(133, 133, 200);</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="layoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>460</y>
+             <width>119</width>
+             <height>48</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_c_11">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>As'（mm2）</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_c_12">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>As（mm2）</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="lineEdit_c_12">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>5680</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="lineEdit_c_11">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>5680</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="pushButton_c_3">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>580</y>
+             <width>131</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>验算裂缝</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_c_14">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>550</y>
+             <width>181</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;（可改变数据绘制多条相关曲线）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_c_18">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>270</y>
+             <width>88</width>
+             <height>14</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;绘图时自动计算&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>510</y>
+             <width>271</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QPushButton" name="pushButton_c_1">
+              <property name="text">
+               <string>绘制M-N图</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_c_2">
+              <property name="text">
+               <string>清空图像</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>320</y>
+             <width>231</width>
+             <height>128</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_c_16">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正常使用极限最大弯矩（kN.m）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_15">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;允许裂缝宽度（mm）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_17">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;αcr&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_20">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Es（N/mm&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_c_21">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ftk（N/mm&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_14">
+                <property name="text">
+                 <string>238.48</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_15">
+                <property name="text">
+                 <string>0.2</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_16">
+                <property name="text">
+                 <string>1.9</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_18">
+                <property name="text">
+                 <string>200000</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_c_19">
+                <property name="text">
+                 <string>2.64</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_d">
+       <attribute name="title">
+        <string>验算</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_d">
+        <item row="0" column="0">
+         <widget class="QWidget" name="widget_d" native="true">
+          <widget class="QLabel" name="label_d_1">
+           <property name="geometry">
+            <rect>
+             <x>9</x>
+             <y>9</y>
+             <width>68</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;开发ing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1034</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
